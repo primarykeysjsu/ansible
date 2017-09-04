@@ -22,3 +22,13 @@ You should see a simple test page with a custom HTML
 Sample Hosts File
 [awsServers]
 ec2-54-69-142-58.us-west-2.compute.amazonaws.com ansible_ssh_private_key_file=/Users/rajisunder/authorized_keys/sunderaws.pem remote_user=ubuntu
+
+Executable Scripts using tags
+
+* Start the webserver and deploy
+
+ansible-playbook -s site.yml --tags deploy
+
+* Undeploy and shutdown the server
+
+ansible-playbook -s site.yml --tags undeploy
