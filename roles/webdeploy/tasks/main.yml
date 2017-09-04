@@ -1,4 +1,0 @@
----
-- include: install_apache2.yml
-- include: copy_deploy.yml
-# include: copy_undeploy.yml
