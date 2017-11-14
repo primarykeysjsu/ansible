@@ -1,5 +1,5 @@
 ---
-# This playbook deploys the whole application stack in this site.
+# This playbook deploys the whole application stack in this site modified to test jenkins.
 
 
 - name: configure and install the webservers and deploy application code
